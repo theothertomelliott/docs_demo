@@ -1,7 +1,7 @@
 # Open Source Documentation Demo
 
 This is a companion project to a talk on building documentation for open source projects using
-[Hugo](https://gohugo.io/).
+[Hugo](https://gohugo.io/) and testing it with [Travis CI](https://travis-ci.org/).
 
 # Branches
 
