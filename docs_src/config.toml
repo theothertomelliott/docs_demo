@@ -2,6 +2,7 @@ languageCode = "en-us"
 title = "Find"
 theme = "hugo-material-docs"
 baseurl = "http://example.org/"
+publishDir = "../docs"
 
 [params]
     # Repository
