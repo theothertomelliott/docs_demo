@@ -1,5 +1,7 @@
 # Open Source Documentation Demo
 
+[![Build Status](https://travis-ci.org/theothertomelliott/docs_demo.svg?branch=master)](https://travis-ci.org/theothertomelliott/docs_demo)
+
 This is a companion project to a talk on building documentation for open source projects using
 [Hugo](https://gohugo.io/) and testing it with [Travis CI](https://travis-ci.org/).
 
