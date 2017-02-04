@@ -7,7 +7,7 @@ This is a companion project to a talk on building documentation for open source 
 
 # Branches
 
-The master branch represents the project prior to documentation. The example branch follows
+The [master](https://github.com/theothertomelliott/docs_demo/tree/master) branch represents the project prior to documentation. The [example](https://github.com/theothertomelliott/docs_demo/tree/example) branch follows
 each step in the process of setting up documentation for a project.
 
 # find.go
