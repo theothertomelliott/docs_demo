@@ -2,3 +2,9 @@ languageCode = "en-us"
 title = "Find"
 theme = "hugo-material-docs"
 baseurl = "http://example.org/"
+
+[params]
+    # Repository
+    provider = "GitHub"
+    repo_url = "https://github.com/theothertomelliott/go-find"
+    version = "0.0.1"
