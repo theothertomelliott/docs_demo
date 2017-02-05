@@ -1,3 +1,11 @@
 language: go
 go:
   - 1.7
+before_script:
+  - wget https://github.com/spf13/hugo/releases/download/v0.18.1/hugo_0.18.1_Linux-64bit.tar.gz -O /tmp/hugo.tar.gz
+  - tar -xvf /tmp/hugo.tar.gz
+  - mv $PWD/hugo_0.18.1_linux_amd64/hugo_0.18.1_linux_amd64 $PWD/hugo_0.18.1_linux_amd64/hugo
+  - export PATH=$PATH:$PWD/hugo_0.18.1_linux_amd64/
+script:
+  - go build
+  - ./check_docs.sh
